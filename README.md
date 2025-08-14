@@ -1,10 +1,17 @@
-# Overview
-[The project document (i.e. latest md file)](project.v3.5.md) outlines a framework we propose grafting onto any collaborative collective. Specifically with the intent of realigning democracy for the global era. We describe a tool intended for providing a vehicle through which any collection of humans can organize themselves in any way imaginable. If you want an anarchist state, you can do that now. If you want liquid democracy where every citizen has the right to vote on every single thing to pass through the government, you can do that. If "you" want to run a dictatorship, you can make that work too I'm sure.. probably for a little while at least.
+# Overview  
+[The latest project document](project.v4.0.md) outlines a modular framework that can be grafted onto any collaborative collective — from small grassroots groups to governments — with the aim of realigning democracy for the realities of a global, networked era.  
 
-The framework relies on or describes a few main ideas which this will be an attempt to shorthand:
- A townhall type space, like Twitter but self moderated. Language tools like LLMs or NLP. Identifying echo chambers from any particular person's perspective. Democratic processes; e.g. voting. Social graphs as a basis for trust analytics. Collective forming (requirements optional e.g. government ID). Anonymized interactions.
+The system is designed as a flexible toolset for organizing humans in any governance model they choose: a fully participatory liquid democracy, an anarchist collective, a traditional representative body, or even experimental hybrids. Its neutrality at the protocol level means the same core infrastructure can support diverse (and even competing) governance styles.  
 
-Before you dismiss this, wait a moment and consider this. Suppose every person on the planet would really love to hop on a maglev train and be able to reach near to any destination on the earth. What would that take? A massive amount of infrastructure. What would it take to have an insane amount of infrastructure? Well, in the current social paradigm it would be simply trillions - if not more - of dollars. Suppose instead, all those people who cared were also willing to help build it. Imagine organizing that. That's the scale our civilization is at, right now, we've simply been unable to create the tools to support a new way of co-existing at scale.
+Key concepts include:  
+- **Decentralized discussion spaces** — a “self-moderated town hall” that supports nuanced discourse and exposes echo chambers.  
+- **Language tools** — NLP and LLM integration for surfacing related ideas, clustering perspectives, and improving search/discovery.  
+- **Trust graphs** — social connections as a measurable basis for Sybil resistance, trust analytics, and reputation weighting.  
+- **Democratic processes** — voting, polling, and representation systems that work in both proof-required and proof-free modes.  
+- **Collective formation** — organizations with optional membership requirements (e.g., government ID, trust score).  
+- **Anonymity and privacy** — layered identities, strong cryptography, and metadata protection for safe participation.  
 
-# Collaboration
-Open issues. Start discussions. Send an email to join the organization to help design, research, and develop.
+Think of it as civic infrastructure — not unlike building a global maglev network. In our current paradigm, such a feat would take trillions of dollars and decades of centralized coordination. But if everyone who wanted it could safely self-organize, coordinate resources, and collaborate at scale, it could emerge far faster. This framework is designed to make that level of coordination possible.  
+
+# Collaboration  
+We welcome contributions in research, design, development, and governance modeling. Open an issue, start a discussion, or email to join the effort.
