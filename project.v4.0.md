@@ -142,7 +142,7 @@ Two primary modes exist:
 - **Proof-free voting** — for open, exploratory polls where broad participation matters more than strict eligibility, with trust-weighted analysis to detect manipulation.  
 
 Votes can propagate peer-to-peer through the trust graph, be aggregated at collective levels, or be anchored to the blockchain for public verifiability.  
-**Collectives are treated as peers** in the trust network — allowing a collective to propagate decisions directly to all members without intermediate steps.
+**Collectives are treated as peers** in the trust network — allowing a collective to propagate polls & votes directly to all members without intermediate steps.
 
 **Purpose:** Ensure voting can be both secure for high-stakes decisions and accessible for open participation, without compromising trust.  
 **Outcome:** Broader engagement with decision-making while preserving integrity where it matters most.
