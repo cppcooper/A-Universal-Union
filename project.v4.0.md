@@ -1,6 +1,6 @@
 ## A) Abstract
 
-Democracy is not a spectator sport, and is not something we should pick up every X years and put back down again. The true power of democracy lies not in elections or officials, but in the shared capacity of individuals to influence the systems that shape their lives. Today, that capacity is constrained by concentrated power, gatekeeping institutions, and political processes often driven more by financial influence than by public will. This paper proposes a hybrid framework for decentralized democracy that combines peer-to-peer trust-graph voting, federated collective governance, and a blockchain backbone for global verifiability.
+Democracy is not a spectator sport, and is not something we should pick up every X years and put back down again. The true power of democracy lies not in elections or officials, but in the shared capacity of individuals to influence the systems that shape their lives. Today, that capacity is constrained by concentrated power, gatekeeping institutions, and political processes often driven more by bureaucracy & financial influence than by public will. This paper proposes a hybrid framework for decentralized democracy that combines peer-to-peer trust-graph voting, federated collective governance, and a blockchain backbone for global verifiability.
 
 The design prioritizes privacy, resilience, and human accountability. It offers structural deterrence against harmful activity while maintaining neutrality in its core protocol, enabling adoption across diverse legal and cultural contexts. Key features include a cryptographically secure identity and pseudonym system, trust-weighted decision-making, modular discussion and polling tools, and post-quantum-ready security.
 
@@ -57,6 +57,8 @@ A democratic system cannot be judged only by how efficiently it runs or how secu
 Neutrality at the core protocol level ensures adaptability across cultures and legal systems, while optional compliance modules let communities add guardrails without enforcing them globally. The goal is not to impose a single moral order but to provide the infrastructure for many, while ensuring that no one entity gains the power to silence speech, erase participation, or dismantle the network.
 
 This moral architecture acknowledges that complete safety is impossible. Instead, it aims for resilience: encouraging openness, supporting diverse forms of governance, and providing tools for communities to defend themselves. Responsibility is distributed—among individuals, communities, and the civilization we collectively create—but the consequences of crime always return to the physical world, where they must ultimately be addressed.
+
+**Risk Framing.** Every democratic infrastructure is also an attack surface. Anonymity can be abused, trust graphs can be gamed, and analytic tools can be weaponized. No design can erase these risks entirely, but a resilient design makes them visible and manageable. This framework treats transparency as a safeguard: harms are surfaced rather than hidden, giving communities the ability to respond. Later, in Section J, we outline the most salient technical and social attack surfaces—not as an afterthought, but as themes carried throughout and examined more fully toward the document’s conclusion.
 
 ### Civilization and the Expression of Psychopathy
 
@@ -244,7 +246,7 @@ Safeguards include:
 
 ## F) High-Level Technical Overview
 
-The framework’s technical pillars define how its core principles — trust, privacy, resilience, and scalability — could potentially be implemented. Each pillar is structured with a clear **Goal**, **Candidate Approaches / Technologies**, and **Research & Verification Needed [see I) References]**. Collaboration is most necessary here to ensure the system design goals are achieved successfully in implementation.
+The framework’s technical pillars define how its core principles — trust, privacy, resilience, and scalability — could potentially be implemented. Each pillar is structured with a clear **Goal**, **Candidate Approaches / Technologies**, and **Research & Verification Needed [see K) References]**. Collaboration is most necessary here to ensure the system design goals are achieved successfully in implementation.
 
 ### 1. Identity and Trust Layer
 
@@ -535,7 +537,7 @@ Due to the open research requirements outlined in **F) High-Level Technical Over
 
 
 
-## Minimal Parallel Build Plan (suggested)
+### Minimal Parallel Build Plan (suggested)
 
 - **Track A (Identity & Trust):** 1, 2, 3, 11  
 - **Track B (Deliberation & Polls):** 4, 5, 13, 14  
@@ -548,7 +550,102 @@ Due to the open research requirements outlined in **F) High-Level Technical Over
 2. **M2 – Org Pilot:** 1+3+4+5+8+10+11+12 (adds federation, membership, safe analytics).  
 3. **M3 – Binding Vote Pilot:** 1+2+3+6+7+8+9+11 (adds ZK eligibility, private routing, anchoring).
 
-## I) References
+## I) Pilots
+
+Pilots are integration pathways that test early bundles of features, validate user value, and de-risk development before full deliverables are complete. They are not replacements for deliverables; rather, they use stripped-down or proto versions of deliverables to demonstrate viability.
+
+Where deliverables are the **atomic quanta of the system**, pilots are the **early composites** that show how those quanta come together in practice. A pilot may rely on only a thin slice of a deliverable, and its trajectory implies how that slice evolves into the full module.
+
+The point of this section is twofold:
+
+1. To make explicit which deliverables (or stripped versions of them) are exercised by each pilot.
+2. To clarify the dependency chain between early tests (pilots), atomic features (deliverables), and eventual milestones (parallel build plan).
+
+The details here imply:
+
+- A deliverable marked as “stripped” is not fully built in the pilot; it is exercised in a minimal form.
+- A deliverable marked as “core” is required in near-full functionality.
+- A deliverable marked “deferred” is not needed for the pilot and can be postponed until later milestones.
+
+### Pilot 1 — Casual Consensus (Simple Trust-Weighted Polls)
+
+**Core:** Polling Module, Identity Wallet, Witness Kit (invites/attestations).  
+**Stripped:** Trust Graph Engine (trust seeds only), Discussion Service (comment stubs), Ledger Module (optional local snapshots).  
+**Deferred:** Federation, Analytics, Governance APIs.  
+**Trajectory:** The first adoption hook; proves low-friction voting, then grows into structured deliberation and anchored tallies.
+
+### Pilot 2 — Vote + Context Board (Decisions Tied to Deliberation)
+
+**Core:** Polling Module, Discussion Service (threads + classifications), Identity Wallet.  
+**Stripped:** Semantic Tools (manual classification only), Trust Graph (basic ordering), Ledger Module (local decision bundles).  
+**Deferred:** Federation, Analytics, Governance APIs.  
+**Trajectory:** The deliberation backbone; ensures every decision is tied to its debate, and builds the bridge into semantic tooling and ledger anchoring.
+
+### Pilot 3 — Mini Deliberation Heatmap (Visual Consensus Mapping)
+
+**Core:** Analytics Toolkit (visualization core), Polling Module, Classification Schema (from Discussion Service).  
+**Stripped:** Semantic clustering (manual grouping), Trust Graph (basic trust slider), Privacy Layer (threshold cutoff only), Ledger (optional export snapshots).  
+**Deferred:** Federation analytics, trend tracking, advanced semantic summaries.  
+**Trajectory:** The reflection backbone; shows how positions cluster and evolve, scaling later into trust-weighted analytics, longitudinal trends, and federated landscapes.
+
+### Pilot 4 — Community Ledger (Permanent Record)
+
+**Core:** Ledger Module (local append-only log), Polling Module, Discussion Service (summaries).  
+**Stripped:** Ledger Anchoring (local only), Metadata integration (manual summaries), Query UI (flat history), Analytics (no hooks yet).  
+**Deferred:** Federated ledger consensus, advanced anchoring, reputation systems.  
+**Trajectory:** The accountability backbone; proves permanence locally, then evolves into anchored, federated, and analytics-linked civic memory.
+
+## J) Attack Surfaces (High-Level Overview)
+
+The v4 framework is designed with privacy, resilience, and accountability at its core. Still, like any open system, it exposes potential attack surfaces. This section highlights the most salient vulnerabilities — those weak enough to warrant immediate attention — while leaving deeper audit and the addressing of these issues to domain experts.
+
+### 1. Identity & Trust Graph
+- **Spoofing / Sybil Attacks (STRIDE):** Witness onboarding plus biometric checks reduce fake accounts, but collusion between witnesses or coercion in hostile regions could still bootstrap large Sybil clusters.  
+- **Linkability (LINDDUN):** Pseudonyms are unlinkable in design, but repeated behavior or metadata correlation (timing, phrasing, stylometry) could deanonymize dissidents.  
+- **Tampering:** Trust-graph attestations are local first; delayed anchoring leaves a window for manipulation before snapshot proofs.
+
+### 2. Discussion & Deliberation
+- **Flooding / DoS:** Open threads invite brigading by extremists, trolls, or authoritarian states. Trust weighting can demote, but only after damage/noise occurs.  
+- **Bias Amplification:** NLP/LLM tools used for clustering and tone-flagging can be adversarially manipulated (prompt injection, adversarial text) to distort consensus maps.  
+- **Detectability:** Even with pseudonyms, activity patterns can reveal that a given pseudonym participated in a controversial thread. If an individual reuses the same pseudonym across all aspects of their expression, this can become incriminating under repressive regimes.
+
+### 3. Voting & Polling
+- **Eligibility Proofs:** Commit–reveal + ZK is robust, but implementation errors could leak side-channel info.  
+- **Vote Coercion:** Users may be forced to reveal their commit nonce to prove how they voted — a classic coercion risk.  
+- **Information Disclosure:** Proof-free polls, if aggregated without sufficient differential privacy, risk revealing minority positions (e.g., small LGBTQ+ groups).
+
+### 4. Organizational Governance
+- **Takeover Risks:** Membership APIs are intentionally flexible, but hostile actors (corporations, authoritarian governments) could define rules that look open while covertly excluding or deanonymizing.  
+- **Repudiation:** Policy changes may not leave tamper-proof audit trails if governance metadata is not consistently anchored.
+
+### 5. Analytics & Feedback
+- **Differential Privacy Weaknesses:** Poorly tuned ε (epsilon) values can leak sensitive micro-group data.  
+- **Re-identification:** Cross-correlating ideological heatmaps with external datasets could expose dissidents, whistleblowers, or minorities.  
+- **Bias & Manipulation:** Automated summarization could misrepresent minority opinions, shaping perception.
+
+### 6. Network & Privacy Layer
+- **Metadata Leaks:** Even Tor/I2P/mixnets struggle against global passive adversaries. Timing analysis may still correlate activity with individuals.  
+- **Denial of Service:** Federated nodes are choke points; targeted DoS or resource exhaustion could silence whole collectives.  
+- **Elevation of Privilege:** Node operators may exploit admin consoles for surveillance beyond intended scope.
+
+### 7. Supply Chain & Updates
+- **Tampering / Malicious Updates:** If release signing or reproducible builds are not rigorously enforced, adversaries can push backdoored clients.  
+- **Rollback Attacks:** Users may be tricked into older, vulnerable versions without strong anti-rollback enforcement.
+
+---
+
+### Key Risk Archetype Intersections
+- **Dissidents vs Authoritarians:** Surveillance + metadata leaks are existential threats.  
+- **Criminal actors (Mafia, traffickers, terrorists):** They gain little benefit long term, but in the short term can still exploit discussion/vote spaces for recruitment before detection.  
+- **Corporate/State Influence:** Subtle governance takeovers, flooding discourse, and analytics manipulation align with their motivations.  
+- **Technologists/Hackers:** May test and expose vulnerabilities early — constructive if embraced, destructive if ignored.
+
+---
+
+### Takeaway
+Most structural risks are *manageable but non-trivial*: Sybil collusion, metadata leaks, coercion, takeover attempts, and weak DP parameters. The system’s **strength is transparency** — harms are visible even if not always preventable. Its **weakness is metadata** — timing, correlation, and coercion can undermine anonymity despite cryptographic protections.
+
+## K) References
 
 [1] Yu, H., Gibbons, P., Kaminsky, M., Flaxman, A. **SybilGuard: Defending Against Sybil Attacks via Social Networks.** SIGCOMM ’06. (PDF). — **Mature**.  
 [2] Yu, H., et al. **SybilLimit: A Near‑Optimal Social Network Defense against Sybil Attacks.** IEEE S&P ’08. (PDF). — **Mature**.  
