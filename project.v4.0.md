@@ -431,7 +431,7 @@ Prevent tracing votes and discussion activity to specific devices or endpoints, 
 ## H) Low-Level Technical Details (Established and Implementable)
 
 **Note:**  
-Due to the open research requirements outlined in **F) High-Level Technical Overview**, this section is not complete or sure of itself. The following specifications cover components and configurations already in widespread, verifiable use or undergoing formal standardization. All parameters remain subject to revision based on future testing, security audits, and expert review.
+Due to the open research requirements outlined in the preceding **High-Level Technical Overview**, this section is not complete or sure of itself. The following specifications cover components and configurations already in widespread, verifiable use or undergoing formal standardization. All parameters remain subject to revision based on future testing, security audits, and expert review.
 
 ### 1. Cryptographic Standards
 - **Asymmetric Encryption (classical)** — X25519 (Curve25519) for key exchange; Ed25519 for digital signatures [25][26]. *(Not quantum-safe — to be paired with PQC algorithms.)*  
