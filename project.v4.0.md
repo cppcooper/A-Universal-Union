@@ -46,18 +46,6 @@ The platform is designed to make every human an agent in this evolutionary game.
 
 Ants, the epitome of cooperation, have thrived for over 100 million years — and seem unlikely ever to go extinct so long as any environment remains for them to inhabit.
 
-### Mock Case Study: National Consensus on Insurrection Accountability
-
-In today’s United States, accountability for the January 6th "insurrection" remains a fractured and partisan issue. Institutional processes have stalled in legal complexity and political gridlock. Imagine this framework applied:
-
-**Step 1 — Discussion.** Millions of citizens join pseudonymous discussions tagged to the issue. Trust-weighted classification tools highlight where real disagreement lies (“Was it incitement or protected speech?”) and where surprising agreement emerges (“No elected official should be above the law”). NLP clustering shows that across ideological divides, a strong majority believe attempts to overturn elections must face consequences.
-
-**Step 2 — Polling.** Local collectives — unions, religious groups, universities — launch polls. With trust-graph filtering, analysts exclude bot-like or bad-faith clusters. The results converge: ~80% of participants, across demographics, support legal accountability for attempts to subvert democratic transfer of power.
-
-**Step 3 — Collective Resolution.** Though not legally binding, the convergence is transparent and auditable on the blockchain. Citizens see that what felt like a “partisan fight” is actually broad national consensus. The insight fuels grassroots civil actions — mass petitions, coordinated boycotts, pressure campaigns — with legitimacy grounded not in institutional gatekeeping, but in demonstrably shared public will.
-
-This scenario shows how the system does not replace courts or Congress. Instead, it makes visible what existing institutions often obscure: overwhelming agreement on questions elites prefer to leave unresolved. By surfacing that consensus, it shifts the political cost of inaction — equipping ordinary people with justification for civil action when formal channels stall.
-
 ## C) Ethics & Morals
 
 A democratic system cannot be judged only by how efficiently it runs or how securely it protects data. It must also be measured against the ethical principles it embodies. History shows that political systems of every kind suffer from recurring weaknesses: they are vulnerable to corruption, resistant to reform, and prone to serving entrenched interests over the collective will. A resilient system must not only guard against these failings but also clarify its moral responsibilities.
@@ -74,23 +62,80 @@ Neutrality at the core protocol level ensures adaptability across cultures and l
 
 This moral architecture acknowledges that complete safety is impossible. Instead, it aims for resilience: encouraging openness, supporting diverse forms of governance, and providing tools for communities to defend themselves. Responsibility is distributed—among individuals, communities, and the civilization we collectively create—but the consequences of crime always return to the physical world, where they must ultimately be addressed.
 
-**Risk Framing.** Every democratic infrastructure is also an attack surface. Anonymity can be abused, trust graphs can be gamed, and analytic tools can be weaponized. No design can erase these risks entirely, but a resilient design makes them visible and manageable. This framework treats transparency as a safeguard: harms are surfaced rather than hidden, giving communities the ability to respond. Later, in Section J, we outline the most salient technical and social attack surfaces—not as an afterthought, but as themes carried throughout and examined more fully toward the document’s conclusion.
+**Risk Framing.** Every democratic infrastructure is also an attack surface. Anonymity can be abused, trust graphs can be gamed, and analytic tools can be weaponized. No design can erase these risks entirely, but a resilient design makes them visible and manageable. This framework treats transparency as a safeguard: harms are surfaced rather than hidden, giving communities the ability to respond. Later, in Section K, we outline the most salient technical and social attack surfaces—not as an afterthought, but as themes carried throughout and examined more fully toward the document’s conclusion.
 
 ### Civilization and the Expression of Psychopathy
 
-The human brain is capable of both great good and great harm—and the choices we make reinforce pathways that make future moral or immoral choices easier. That’s neuroplasticity in action: every decision, habit, or belief grows stronger through repetition. For example, moral licensing shows how doing something “good” can subconsciously permit one to err later—small moral shifts can cascade into bigger ones over time [56].
+The human brain is capable of both great good and great harm—and the choices we make reinforce pathways that make future moral or immoral choices easier. That’s neuroplasticity in action: habits and beliefs strengthen through repetition, and early adversity can leave lasting traces. Yet plasticity is lifelong, and targeted interventions—from enriched environments in childhood to therapies in adulthood—can rewire circuits for empathy and regulation [1][4].
 
-Psychopathy is often seen as genetics-bound—something you’re born with. But research layers the picture. Twin studies show early environments powerfully shape traits like callousness or impulsivity—meaning upbringing matters significantly [57]. Brain systems for empathy and self-control develop through experience, especially in early life—not fixed at birth [58].
+Psychopathy is not fixed at birth. Genetics play a role, especially when callous-unemotional traits and antisocial behavior combine [5], but outcomes are strongly shaped by environment and experience. Research shows brain systems for empathy, impulse control, and moral judgment develop through learning, and can even shift later in life with sustained effort [3]. Empathy itself is no simple cure—its components can both aid and mislead moral judgment [6]—while moralization can amplify people’s felt license to act, for better or worse [2].
 
-Zooming out, civilization becomes a vast developmental context. In neoliberal capitalism, traits like charm without empathy, manipulation, and ruthlessness are often rewarded. Empirical studies find psychopathic traits are more common among senior executives (around 3–12%) than in the general population (~1%)—a clear signal that environments select for these traits [59].
+Zooming out, civilization acts as a vast developmental context. In modern capitalism, charm without empathy, manipulation, and ruthlessness are often rewarded. Studies confirm psychopathic traits are disproportionately common among senior executives (3–12% vs. ~1% in the general population), with charisma and strategy often masking destructive effects: cultures of bullying, turnover, stress, and weakened social responsibility [7][8].
 
-These “corporate psychopaths” may ascend due to superficial charm and strategic coldness, but their presence often harms organizations—creating cultures marked by bullying, high turnover, stress, absenteeism, and poor productivity [60].
+Responsibility is thus distributed. Individuals make choices, but societies help determine which traits are rewarded. A system that prizes exploitation co-produces it.  
 
-So, responsibility is distributed. Individuals make choices—but societies bear responsibility for shaping and rewarding those choices. A system that rewards self-serving behavior is complicit in producing that behavior.
+**For A Universal Union, the takeaway is potent:** design environments that nudge humans toward empathy and accountability, not manipulation. Invest in early life, reinforce prosocial loops continuously, and structure institutions so cooperation is rewarded and destructive charisma is checked. When empathy is easier and greed harder, we rewrite the default neural and social trajectories.  
 
-**For A Universal Union, the takeaway is potent:** design environments that nudge humans toward empathy and accountability, not exploitation. Invest in early childhood, build institutions that favor cooperation, and create accountability that reinforces prosocial loops. When empathy is easier and greed harder, we rewrite the default neural and social trajectories.
+## D) Mock Case Studies
 
-## D) High-Level Abstraction of Core Concepts
+To move beyond abstract design, this section provides mock case studies that illustrate how the framework might operate in real-world scenarios. These are not predictions, nor are they endorsements of particular ideologies. Instead, they are structured thought experiments: simplified narratives that stress-test the system under different social, political, and economic conditions.
+
+### Mock Case Study: National Consensus on Insurrection Accountability
+
+In today’s United States, accountability for the January 6th "insurrection" remains a fractured and partisan issue. Institutional processes have stalled in legal complexity and political gridlock. Imagine this framework applied:
+
+**Step 1 — Discussion.** Millions of citizens join pseudonymous discussions tagged to the issue. Trust-weighted classification tools highlight where real disagreement lies (“Was it incitement or protected speech?”) and where surprising agreement emerges (“No elected official should be above the law”). NLP clustering shows that across ideological divides, a strong majority believe attempts to overturn elections must face consequences.
+
+**Step 2 — Polling.** Local collectives — unions, religious groups, universities — launch polls. With trust-graph filtering, analysts exclude bot-like or bad-faith clusters. The results converge: ~80% of participants, across demographics, support legal accountability for attempts to subvert democratic transfer of power.
+
+**Step 3 — Collective Resolution.** Though not legally binding, the convergence is transparent and auditable on the blockchain. Citizens see that what felt like a “partisan fight” is actually broad national consensus. The insight fuels grassroots civil actions — mass petitions, coordinated boycotts, pressure campaigns — with legitimacy grounded not in institutional gatekeeping, but in demonstrably shared public will.
+
+This scenario shows how the system does not replace courts or Congress. Instead, it makes visible what existing institutions often obscure: overwhelming agreement on questions elites prefer to leave unresolved. By surfacing that consensus, it shifts the political cost of inaction — equipping ordinary people with justification for civil action when formal channels stall.
+
+### Mock Case Study: Information Isolation after Canadian Nationalization
+
+In this (albeit highly unlikely) scenario, Canada nationalizes its major industries, seizing the means of production under a populist government mandate. In response, the United States and allied nations impose not just economic sanctions but an information blockade. Mainstream media coverage is tightly framed to depict Canada as unstable. American-controlled platforms (Google, Meta, Twitter, YouTube) censor Canadian news, preventing stories from leaving the country and cutting diasporic communities off from updates. To the outside world, little verifiable information emerges beyond official narratives.
+
+**Step 1 — Discussion.**
+Inside the platform, Canadian citizens open pseudonymous threads documenting shortages, local organizing, and the day-to-day reality. International participants join to compare firsthand accounts with the narratives fed through mainstream channels. Trust-graph clustering shows that despite heavy external censorship, diaspora Canadians and sympathetic foreign collectives are able to form “information bridges” across borders.
+
+**Step 2 — Polling.**
+Grassroots groups launch trust-weighted polls: “Do sanctions help Canadian citizens, or only harm them?” Despite diverse ideological inputs, ~70% of participants across regions converge on the view that sanctions hurt ordinary Canadians without toppling elites. In the U.S. discussion clusters, however, a manufactured minority insists nationalization proves authoritarian drift. Trust-weighting and semantic clustering expose that this minority overlaps heavily with newly created pseudonyms—flagging probable astroturfing.
+
+**Step 3 — Collective Resolution.**
+The results—recorded transparently on the blockchain—demonstrate an international consensus contrary to official media framing. Citizens in multiple countries use this data to pressure their representatives: petitions, boycotts, letters to the editor. Journalists (both mainstream and alternative) cite the verifiable tallies to challenge editorial gatekeeping. While governments continue official censorship, citizens now have auditable evidence of broad disagreement, shifting the political cost of sustaining the blockade.
+
+This case shows how the framework counters information isolation. Even when powerful states control broadcast media and major platforms, peer-to-peer trust-anchored discourse makes censorship porous. Diasporas, dissidents, and ordinary citizens become the vectors of resilience. Instead of information dying inside a blackout, verifiable narratives surface—auditable, trust-weighted, and immune to unilateral erasure.
+
+### Mock Case Study: Bottom-Up Convergence
+
+A small polity — New Albion — begins with conservative, market-oriented economics: light taxation, limited welfare, and heavy reliance on private investment. Its neighbors adopt socialist systems with redistribution, state ownership, and expansive welfare.
+
+**Early Years.**
+Citizens of socialist states see affordable housing, healthcare, and education as proof of their model’s superiority. New Albion’s residents enjoy rapid entrepreneurship and technological breakthroughs, though inequality is stark. Both groups are confident in their own path.
+
+**Mid-Term.**
+Through the platform, ordinary people begin to compare notes. Pseudonymous discussions surface frustrations on both sides: socialist citizens complain of shortages and bureaucratic delays, while New Albion’s citizens share struggles with healthcare costs and economic volatility. Trust-weighted analytics highlight not only the divides but also areas of quiet admiration — workers in socialist states acknowledging the energy of markets, conservatives in New Albion recognizing the value of social protections.
+
+**Adaptation From Below.**
+Grassroots polls run by unions, student groups, and local collectives reveal surprising overlaps:
+
+- In New Albion, ~65% of participants support adopting some form of universal healthcare.
+
+- In socialist neighbors, ~58% of participants favor loosening restrictions on private business to spur innovation.
+
+Because these results are anchored on the blockchain, they are transparent and verifiable. Politicians can no longer dismiss them as fringe opinions — the platform makes visible that ideological migration is already underway.
+
+**Long-Term.**
+Over decades, this bottom-up pressure forces leaders in both camps to adjust policies. New Albion adopts modest welfare programs, while socialist neighbors open more space for private enterprise. Neither system “defeats” the other; instead, the platform makes the mutual borrowing visible and accelerates convergence.
+
+**Outcome.**
+By the end of the century, ideological lines have blurred. The surviving systems are hybrids that blend market innovation with social protections. Crucially, this adaptation did not come from elites negotiating behind closed doors — it was the product of millions of ordinary citizens, using the platform to voice lived experience, measure shifting sentiment, and push their governments toward balance.
+
+**Takeaway.**
+The framework does not declare which ideology is “best.” It creates an environment where weak strategies fade, strong strategies adapt, and collective learning happens in the open. The platform becomes the evolutionary field on which ideologies are tested, reshaped, and ultimately synthesized into models that can endure.
+
+## E) High-Level Abstraction of Core Concepts
 
 ### 1. Trust
 
@@ -158,7 +203,7 @@ Core security principles include:
 
 Security is not treated as an afterthought or a bolt-on layer; it is embedded in the design at every level, from individual device handling to global consensus verification.
 
-## E) High-Level Abstraction of Usage
+## F) High-Level Abstraction of Usage
 
 ### 1. Discussion and Deliberation
 
@@ -260,9 +305,15 @@ Safeguards include:
 **Purpose:** Give communities a clear, safe view of how ideologies and policies spread, adapt, and succeed.  
 **Outcome:** Enables democratic “natural selection” of ideas while protecting individuals and small groups from exposure.
 
-## F) High-Level Technical Overview
+## G) High-Level Technical Overview
 
-The framework’s technical pillars define how its core principles — trust, privacy, resilience, and scalability — could potentially be implemented. Each pillar is structured with a clear **Goal**, **Candidate Approaches / Technologies**, and **Research & Verification Needed [see K) References]**. Collaboration is most necessary here to ensure the system design goals are achieved successfully in implementation.
+The framework’s technical pillars define how its core principles — trust, privacy, resilience, and scalability — could potentially be implemented. Each pillar is structured with a clear **Goal**, **Candidate Approaches / Technologies**, and **Analysis of Research Needed [see K) References]**. Collaboration is most necessary here to ensure the system design goals are achieved successfully in implementation.
+
+note 1: these subsections have a bit of bleed-through, and likely need some rearranging.
+
+note 2: as comprehensive as this paper attempts to be in terms of references/research, it is by no means complete (yet).
+
+note 3: this is too much research for a normal person to fully investigate - this has to be a collective effort.
 
 ### 1. Identity and Trust Layer
 
@@ -273,12 +324,12 @@ Protect identities as the foundational security requirement, ensuring no derivat
 - Identity wallets with secure key storage, credential issuance, and recovery.  
 - Onboarding with live biometric checks and human witness attestations.  
 - Bounded trust graphs limiting attestations per participant to reduce Sybil risk.  
-- Social recovery using threshold signatures (e.g., Shamir’s Secret Sharing, FROST).
 
-**Research & Verification Needed [see I) References]**  
-- Optimal trust-graph metrics that preserve diversity and resist echo chamber entrenchment [1][2][3][4][5][6][7][8].  
-- ZKP protocols proving uniqueness without revealing biometrics or personal data [51][52][53][54][55].  
-- Threat modeling of witness-based onboarding to detect collusion or manipulation [51][52][53][54][55].
+**Analysis of Research Needed [see References section]**  
+- Key management strategies, and some issues [9-14].  
+- Optimal trust-graph metrics and sybil resiliency [15-35].  
+- ZKP protocols proving uniqueness without revealing biometrics or personal data [36-39].  
+- Onboarding: liveness, collusion, and coercion resistance [40-60].
 
 ### 2. Discussion, Voting, and Polling Layer
 
@@ -291,14 +342,16 @@ Provide the technical means for anyone to create a binding vote or a non-binding
 - Proof-required voting using ZKPs, biometrics, or geospatial proofs.  
 - Proof-free polls/discussions with trust-weighted sentiment analysis.  
 - Anti-flood measures: rate-limiting, trust-score penalties, and spam detection.  
-- NLP/LLM pipelines for clustering related discussions, semantic search, and multilingual summarization [61][62].  
-- Automated bridge detection using semantic similarity to highlight connectors across polarized groups [65].  
+- NLP/LLM pipelines for clustering related discussions, semantic search, and multilingual summarization.  
+- Automated bridge detection using semantic similarity to highlight connectors across polarized groups.  
 
-**Research & Verification Needed [see I) References]**  
-- Scalable ZKP voting systems (Halo 2, zk-STARKs) for large populations [9][10][11][12][13][14][15][16][17].  
-- Cross-linking algorithms for related discussions without algorithmic bias [7][8].  
-- Machine learning models for echo chamber mapping and bridge detection [7][8].
-- Evaluation of LLM/NLP models for bias, semantic accuracy, multilingual performance, and resistance to adversarial manipulation [67].  
+**Analysis of Research Needed [see References section]**  
+- Echo chamber detection [61-71].
+- Methods of decreasing polarization [72-83].
+- Scalable ZKP voting systems (Halo 2, zk-STARKs) for large populations [84-88].  
+- Cross-linking algorithms for related discussions without algorithmic bias [89-94].  
+- Machine learning models for echo chamber mapping and bridge detection [95][96].
+- Evaluation of LLM/NLP models for bias, semantic accuracy, multilingual performance, and resistance to adversarial manipulation [97-101].  
 
 
 ### 3. Organizational Governance Layer
@@ -311,10 +364,12 @@ Provide governance capabilities at any scale — from global to household — wi
 - Governance templates: quadratic voting, liquid democracy, council systems.  
 - Federation protocols for linking autonomous collectives.
 
-**Research & Verification Needed [see I) References]**  
-- Secure “membership API” for arbitrary entry requirements [51][52][54].  
-- Standard formats for governance metadata to allow cross-collective participation [51][54].  
-- Infiltration resistance models for hostile takeover attempts [1][2][3][4][5][6][7][8].
+**Analysis of Research Needed [see References section]**  
+- Hierarchical autonomy; bypassing layers [102][103].
+- Secure “membership API” for arbitrary entry requirements [104-112].  
+- Federation protocols and standard formats for governance metadata [113-117].  
+- Governance templates [118-121].  
+- Infiltration resistance models for hostile takeover attempts [122-127].
 
 ### 4. Security and Privacy Layer
 
@@ -328,11 +383,14 @@ Protect against surveillance and the resulting risks of oppression and manipulat
 - Crypto agility with versioned, upgradable protocols.  
 - Device hardening: signed updates, reproducible builds, sandboxing.  
 - Vote receipts providing verifiable proof of recording without revealing content.
+- Social recovery using threshold signatures (e.g., Shamir’s Secret Sharing, FROST).
 
-**Research & Verification Needed [see I) References]**  
-- Efficient PQC-compatible ZKP protocols [18][19][20][21][22][23].  
-- Mixnet performance tuning for interactive democratic processes [28][29][30][31][32].  
-- Endpoint compromise resistance in diverse device environments [38][39][40][41][42][43][44].
+**Analysis of Research Needed [see References section]**  
+- Formal verification and interoperability of E2EE and crypto-agile protocols [128-133][154].  
+- Design and usability studies for verifiable vote receipts and social recovery mechanisms [134-139][148-151].  
+- Efficient PQC-compatible ZKP protocols [37][140-144][178-182].  
+- Mixnet performance tuning for interactive democratic processes [128][145-147].  
+- Endpoint compromise resistance in diverse device environments [152][153][155-160].
 
 ### 5. Data and Analytics Layer
 
@@ -343,13 +401,13 @@ Deliver privacy-preserving analytics to support governance decisions, measure tr
 - Differential privacy for noise injection in aggregated outputs.  
 - Trust-weighted aggregation algorithms.  
 - Heat maps and gradient propagation models for tracking ideological spread.  
-- NLP/LLM-powered discourse analysis for semantic clustering, summarization, and contextual search [61][62][68].  
+- NLP/LLM-powered discourse analysis for semantic clustering, summarization, and contextual search.  
 
-**Research & Verification Needed [see I) References]**  
-- Balancing privacy noise with signal clarity for decision-making [45][46][47][48].  
-- Visualization standards preventing micro-targeting or individual identification [45][46][47][48][49][50].  
-- Decentralized computation to avoid central aggregation risks [45][46][47][48].  
-- Auditing of NLP/LLM clustering methods to minimize bias and ensure cultural/linguistic inclusivity [67].  
+**Analysis of Research Needed [see References section]**  
+- Balancing privacy noise with signal clarity for decision-making [161-165].  
+- Visualization standards preventing micro-targeting or individual identification [166-170].  
+- Decentralized computation to avoid central aggregation risks [171][172].  
+- Auditing of NLP/LLM clustering methods to minimize bias and ensure cultural/linguistic inclusivity [173-177].  
 
 
 ### 6. Network and Consensus Layer
@@ -365,15 +423,15 @@ Prevent tracing votes and discussion activity to specific devices or endpoints, 
 - Light clients and pruned nodes to minimize storage burden.  
 - Archival nodes for full historical retention.
 
-**Research & Verification Needed [see I) References]**  
-- Consensus mechanisms optimized for hybrid federated/public designs (Tendermint, HotStuff, Narwhal/Bullshark) [33][34][35][36].  
-- State proof systems (Verkle trees, succinct proofs) for light clients [37].  
-- Recovery protocols for network partitions or validator compromise [33][34][35][36].
+**Analysis of Research Needed [see References section]**  
+- Consensus mechanisms optimized for hybrid federated/public designs (Tendermint, HotStuff, Narwhal/Bullshark).  
+- State proof systems (Verkle trees, succinct proofs) for light clients.  
+- Recovery protocols for network partitions or validator compromise.
 
-## G) Low-Level Technical Details (Established and Implementable)
+## H) Low-Level Technical Details (Established and Implementable)
 
 **Note:**  
-Due to the open research requirements outlined in **F) High-Level Technical Overview**, this section is not complete. The following specifications cover components and configurations already in widespread, verifiable use or undergoing formal standardization. All parameters remain subject to revision based on future testing, security audits, and expert review.
+Due to the open research requirements outlined in **F) High-Level Technical Overview**, this section is not complete or sure of itself. The following specifications cover components and configurations already in widespread, verifiable use or undergoing formal standardization. All parameters remain subject to revision based on future testing, security audits, and expert review.
 
 ### 1. Cryptographic Standards
 - **Asymmetric Encryption (classical)** — X25519 (Curve25519) for key exchange; Ed25519 for digital signatures [25][26]. *(Not quantum-safe — to be paired with PQC algorithms.)*  
@@ -421,7 +479,7 @@ Due to the open research requirements outlined in **F) High-Level Technical Over
 - **Storage Strategy** — Light clients keep recent state; pruned nodes retain partial history; archival nodes store full history with cryptographic proof of completeness.
 
 
-## H) Deliverables (Modular, Parallelizable)
+## I) Deliverables (Modular, Parallelizable)
 
 **Note:** Deliverables are designed to be small, self-contained modules with clear interfaces so multiple teams can build in parallel. Each item lists **Goal**, **Outputs**, **Interfaces**, **Dependencies**, and **Done when**. “Soft” dependencies indicate optional coupling for richer functionality.
 
@@ -566,7 +624,7 @@ Due to the open research requirements outlined in **F) High-Level Technical Over
 2. **M2 – Org Pilot:** 1+3+4+5+8+10+11+12 (adds federation, membership, safe analytics).  
 3. **M3 – Binding Vote Pilot:** 1+2+3+6+7+8+9+11 (adds ZK eligibility, private routing, anchoring).
 
-## I) Pilots
+## J) Pilots
 
 Pilots are integration pathways that test early bundles of features, validate user value, and de-risk development before full deliverables are complete. They are not replacements for deliverables; rather, they use stripped-down or proto versions of deliverables to demonstrate viability.
 
@@ -611,7 +669,7 @@ The details here imply:
 **Deferred:** Federated ledger consensus, advanced anchoring, reputation systems.  
 **Trajectory:** The accountability backbone; proves permanence locally, then evolves into anchored, federated, and analytics-linked civic memory.
 
-## J) Attack Surfaces (High-Level Overview)
+## K) Attack Surfaces (High-Level Overview)
 
 The v4 framework is designed with privacy, resilience, and accountability at its core. Still, like any open system, it exposes potential attack surfaces. This section highlights the most salient vulnerabilities — those weak enough to warrant immediate attention — while leaving deeper audit and the addressing of these issues to domain experts.
 
@@ -663,143 +721,412 @@ The v4 framework is designed with privacy, resilience, and accountability at its
 ### Takeaway
 Most structural risks are *manageable but non-trivial*: Sybil collusion, metadata leaks, coercion, takeover attempts, and weak DP parameters. The system’s **strength is transparency** — harms are visible even if not always preventable. Its **weakness is metadata** — timing, correlation, and coercion can undermine anonymity despite cryptographic protections.
 
-## K) References
+## L) References
 
-[1] Yu, H., Gibbons, P., Kaminsky, M., Flaxman, A. **SybilGuard: Defending Against Sybil Attacks via Social Networks.** SIGCOMM ’06. (PDF). — **Mature**.  
-[2] Yu, H., et al. **SybilLimit: A Near‑Optimal Social Network Defense against Sybil Attacks.** IEEE S&P ’08. (PDF). — **Mature**.  
-[3] Danezis, G., Mittal, P. **SybilInfer: Detecting Sybil Nodes using Social Networks.** NDSS ’09. (PDF). — **Mature**.  
-[4] Cao, Q., et al. **SybilRank: Aiding the Detection of Fake Accounts in Large Scale OSNs.** NSDI ’12. — **Mature**.  
-[5] Viswanath, B., et al. **An Analysis of Social Network‑based Sybil Defenses.** SIGCOMM CCR ’10. — **Mature**.  
-[6] Jia, J., Wang, B., Gong, N. **Random Walk based Fake Account Detection in OSNs.** — **Mature**.  
-[7] Survey: Ramalingam, D., et al. **Fake profile detection techniques in large‑scale OSNs.** Computers & Electrical Engineering 2018. — **Mature**.  
-[8] NDSS page. **SybilInfer.** — **Mature**.
+A number of reference links point to pay walled journals, but most publications can be found for free. As such some leg work may be necessary to read certain papers.
+## Civilization and the Expression of Psychopathy
 
-[9] Adida, B. **Helios: Web‑based Open‑Audit Voting.** USENIX Security ’08. — **Mature**.  
-[10] Pereira, O., et al. **Internet Voting with Helios.** Real‑World E‑Voting (2018). — **Mature**.  
-[11] Hao, F., Ryan, P.Y.A. **Anonymous Voting by Two‑Round Public Discussion (AV‑net / Open Vote Network).** (2009/2015). — **Mature**.  
-[12] Stančíková, I., Homoliak, I. **SBvote: Scalable Self‑Tallying Blockchain‑Based Voting.** ACM AFT ’23. — **Emerging**.  
-[13] Groth, J. **On the Size of Pairing‑Based Non‑Interactive Arguments.** EUROCRYPT ’16 (Groth16). — **Mature**.  
-[14] ECC. **Explaining Halo 2** + **Halo2 Protocol Book**. 2020–2023. — **Emerging**.  
-[15] Ben‑Sasson, E., et al. **STARKs: Scalable, Transparent ARguments of Knowledge.** (ePrint/lectures, 2018–). — **Emerging**.  
-[16] MACI docs. **Minimal Anti‑Collusion Infrastructure.** — **Emerging**.  
-[17] Benchmarking. **ZK‑friendly hashes (Poseidon/Poseidon2) in SNARKs.** arXiv 2024. — **Cutting‑edge**.
+[1] Exploring the Role of Neuroplasticity in Development, Aging, and Neurodegeneration - https://pmc.ncbi.nlm.nih.gov/articles/PMC10741468/
 
-[18] NIST **FIPS‑203: ML‑KEM** (Kyber). Final 2024. — **Mature**.  
-[19] NIST **FIPS‑204: ML‑DSA** (Dilithium). Final 2024. — **Mature**.  
-[20] NIST **FIPS‑205: SLH‑DSA** (SPHINCS+). Final 2024. — **Mature**.  
-[21] Signal. **PQXDH: Post‑Quantum Extended X3DH.** 2023. — **Emerging**.  
-[22] Cryspen/Inria. **Analysis of PQXDH.** 2023. — **Emerging**.  
-[23] Latacora. **Crypto Right Answers: Post‑Quantum Edition (hybrids).** 2024. — **Emerging**.
+[2] How the Moralization of Issues Grants Social Legitimacy to Act on One’s Attitudes - https://www.danieleffron.com/_files/ugd/5a3785_23b2261b74be460882c709d2f836af84.pdf
 
-[24] IETF **RFC 9420: Messaging Layer Security (MLS).** 2023/2024. — **Mature**.  
-[25] Perrin, T. **The Noise Protocol Framework.** (spec). — **Mature**.  
-[26] Perrin, T.; Marlinspike, M. **The Double Ratchet Algorithm.** 2016. — **Mature**.  
-[27] IETF **RFC 9000: QUIC Transport.** 2021. — **Mature**.
+[3] Using Evidence of Adult Brain Plasticity to Inform Early Identification of Extreme Antisocial Behavior in Children - https://scholarworks.iu.edu/journals/index.php/lad/article/view/20706
 
-[28] Dingledine, R., Mathewson, N., Syverson, P. **Tor: The Second‑Generation Onion Router.** USENIX Security ’04. — **Mature**.  
-[29] Piotrowska, A.M., et al. **Loopix: The Loopix Anonymity System.** USENIX Security ’17. — **Mature**.  
-[30] Sasy, S., et al. **SoK: Metadata‑Protecting Communication Systems.** PoPETs 2024. — **Emerging**.  
-[31] Das, D., et al. **Are Continuous Stop‑and‑Go Mixnets Provably Secure?** PoPETs 2024. — **Cutting‑edge**.  
-[32] I2P Specs & Docs. **Invisible Internet Project.** (living specs). — **Mature**.
+[4] Can psychopathy be prevented? Clinical, neuroimaging, and genetic data: an exploratory study - https://www.tandfonline.com/doi/full/10.1080/09297049.2023.2277396
 
-[33] Buchman, E. **Tendermint: BFT in the Age of Blockchains.** 2016. — **Mature**.  
-[34] Yin, M., et al. **HotStuff: BFT Consensus with Linearity and Responsiveness.** 2019. — **Mature**.  
-[35] Danezis, G., et al. **Narwhal and Tusk: A DAG‑based Mempool and Efficient BFT Consensus.** 2021. — **Emerging**.  
-[36] Spiegelman, A., et al. **Bullshark: DAG BFT Protocols Made Practical.** CCS ’22. — **Emerging**.  
-[37] Kuszmaul, J. **Verkle Trees: A Bandwidth‑Efficient Alternative to Merkle Trees.** 2018/2019. — **Emerging**.
+[5] Evidence for substantial genetic risk for psychopathy in 7-year-olds - https://www.academia.edu/14267974/Evidence_for_substantial_genetic_risk_for_psychopathy_in_7_year_olds
 
-[38] The Update Framework. **TUF** (spec & project site). — **Mature**.  
-[39] Torres‑Arias, S., et al. **in‑toto: Farm‑to‑Table Guarantees for Bits and Bytes.** USENIX Security ’19. — **Mature**.  
-[40] Reproducible Builds — project docs & why. — **Mature**.  
-[41] SPDX **Specification v3.0.1**. — **Mature**.  
-[42] OWASP **CycloneDX** (ECMA‑424) — spec overview. — **Mature**.  
-[43] Linux Foundation. **SPDX 3.0 announcement.** 2024. — **Mature**.  
-[44] CycloneDX v1.5 release notes / overview. — **Mature**.
+[6] The complex relation between morality and empathy - https://www.academia.edu/7444395/The_complex_relation_between_morality_and_empathy
 
-[45] Dwork, C., Roth, A. **The Algorithmic Foundations of Differential Privacy.** 2014. — **Mature**.  
-[46] U.S. Census Bureau. **Disclosure Avoidance and the 2020 Census (TopDown Algorithm brief).** 2023. — **Mature**.  
-[47] Abowd, J.M., et al. **The 2020 Census Disclosure Avoidance System TopDown Algorithm.** 2021/2022. — **Mature**.  
-[48] U.S. Census. **Understanding Differential Privacy** (resource hub). — **Mature**.  
-[49] Google Research. **Differentially Private Heatmaps.** 2023. — **Emerging**.  
-[50] PPMF Tech Docs. **2020 Census Privacy‑Protected Microdata File.** 2024. — **Mature**.
+[7] Corporate Psychopathy: Talking the Walk - https://www.sakkyndig.com/psykologi/artvit/babiak2010.pdf
 
-[51] W3C. **Decentralized Identifiers (DID) v1.0** — Recommendation. 2022. — **Mature**.  
-[52] Maram, S.K.D., et al. **CanDID: Can‑Do Decentralized Identity with Legacy Compatibility, Sybil‑Resistance, and Accountability.** IEEE S&P ’21. — **Emerging**.  
-[53] Adler, S., et al. **Personhood Credentials** (arXiv). 2024/2025. — **Cutting‑edge**.  
-[54] Survey. **DIDs and Verifiable Credentials** (arXiv 2024). — **Emerging**.  
-[55] Web3/Gitcoin & ecosystem resources on **MACI** deployments. 2024. — **Emerging**.
-[56] Miller, D. T., & Effron, D. A. **Psychological License: When It Is Needed and How It Functions.** *Advances in Experimental Social Psychology*, 43, 115–155. 2010. — **Mature**.  
-[57] Viding, E., Blair, R. J., Moffitt, T. E., & Plomin, R. **Evidence for Substantial Genetic Risk for Psychopathy in 7-Year-Olds.** *Journal of Child Psychology and Psychiatry*, 46(6), 592–597. 2005. — **Mature**.  
-[58] Decety, J., & Cowell, J. M. **The Complex Relation Between Morality and Empathy.** *Trends in Cognitive Sciences*, 18(7), 337–339. 2014. — **Mature**.  
-[59] Babiak, P., Neumann, C. S., & Hare, R. D. **Corporate Psychopathy: Talking the Walk.** *Behavioral Sciences & the Law*, 28(2), 174–193. 2010. — **Mature**.  
-[60] Boddy, C. R. **Corporate Psychopaths: Organisational Destroyers.** Palgrave Macmillan. 2011. — **Mature**.  
-[61] Lazar, A., et al. **Using LLMs to Enhance Democracy** (arXiv). 2024. — **Emerging**.  
-[62] Salas-Gironés, E., et al. **Summarizing Public Comments on Policy Proposals Using NLP** (IPPA Public Policy Conf.). 2024. — **Emerging**.  
-[63] Villa, E., et al. **Echo Chamber Detection and Analysis: A Topology**. Applied Network Science, 6(83). 2021. — **Mature**.  
-[64] Minici, M., et al. **Cascade-Based Echo Chamber Detection** (arXiv). 2022. — **Emerging**.  
-[65] Tessler, M., et al. **AI Can Help Humans Find Common Ground in Democratic Deliberation**. *Science*, 384(6692), 2024. — **Cutting-edge**.  
-[66] Siachos, P., et al. **Explainable AI Methods to Enhance NLP Summarization and Clustering**. *Future Internet*, 16(7):241. 2024. — **Emerging**.  
-[67] Bruns, A., et al. **A Systematic Review of Echo Chamber Research** (arXiv). 2024. — **Emerging**.  
-[68] Cinelli, M., et al. **The Echo Chamber Effect on Social Media**. *PNAS*, 118(9): e2023301118. 2021. — **Mature**.  
+[8] Corporate Psychopaths: Organisational Destroyers - https://historicalunderbelly.wordpress.com/wp-content/uploads/2012/12/corporate-psychopaths.pdf
 
----
+## Identity and Trust Layer
 
-### Link bundle (for convenience)
+### Key Management
 
-[1] SybilGuard (SIGCOMM ’06) — https://www.math.cmu.edu/~adf/research/SybilGuard.pdf  
-[2] SybilLimit (IEEE S&P ’08) — https://www.comp.nus.edu.sg/~yuhf/yuh-sybillimit.pdf  
-[3] SybilInfer (NDSS ’09) — https://www.princeton.edu/~pmittal/publications/sybilinfer-ndss09.pdf  
-[4] SybilRank (NSDI ’12) — https://www.usenix.org/system/files/conference/nsdi12/nsdi12-final42_2.pdf  
-[5] Analysis of Sybil defenses — https://ccr.sigcomm.org/online/files/p363.pdf  
-[9] Helios (USENIX Security ’08) — https://www.usenix.org/event/sec08/tech/full_papers/adida/adida.pdf  
-[12] SBvote (AFT ’23) — https://dl.acm.org/doi/pdf/10.1145/3555776.3578603  
-[13] Groth16 — (overview) https://www.semanticscholar.org/paper/On-the-Size-of-Pairing-Based-Non-interactive-Groth/510aec2a12d43bbd6ddb85d09def188273f6c024  
-[14] Halo 2 explainer — https://electriccoin.co/blog/explaining-halo-2/  
-[15] STARK overview — https://rdi.berkeley.edu/berkeley-desys/assets/material/lec5_eli_ben_sasson_zk_stark.pdf  
-[16] MACI docs — https://maci.pse.dev/  
-[18] FIPS‑203 ML‑KEM — https://csrc.nist.gov/pubs/fips/203/final  
-[19] FIPS‑204 ML‑DSA — https://csrc.nist.gov/pubs/fips/204/final  
-[20] FIPS‑205 SLH‑DSA — https://csrc.nist.gov/pubs/fips/205/final  
-[21] PQXDH — https://signal.org/blog/pqxdh/  
-[24] RFC 9420 (MLS) — https://www.rfc-editor.org/info/rfc9420  
-[25] Noise — https://noiseprotocol.org/noise.pdf  
-[26] Double Ratchet — https://signal.org/docs/specifications/doubleratchet/doubleratchet.pdf  
-[27] RFC 9000 (QUIC) — https://www.rfc-editor.org/info/rfc9000  
-[28] Tor (USENIX ’04) — https://www.usenix.org/conference/13th-usenix-security-symposium/tor-second-generation-onion-router  
-[29] Loopix (USENIX ’17) — https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-piotrowska.pdf  
-[30] SoK Metadata‑Protecting Comms (PoPETs ’24) — https://petsymposium.org/popets/2024/popets-2024-0030.pdf  
-[31] Continuous stop‑and‑go mixnets (PoPETs ’24) — https://petsymposium.org/popets/2024/popets-2024-0136.pdf  
-[33] Tendermint (thesis) — https://knowen-production.s3.amazonaws.com/uploads/attachment/file/1814/Buchman_Ethan_201606_Msater%2Bthesis.pdf  
-[34] HotStuff (SIGACT/CCS ’19) — https://dl.acm.org/doi/pdf/10.1145/3293611.3331591  
-[35] Narwhal/Tusk — https://arxiv.org/pdf/2105.11827  
-[36] Bullshark (CCS ’22) — https://dl.acm.org/doi/10.1145/3548606.3559361  
-[37] Verkle trees — https://math.mit.edu/research/highschool/primes/materials/2018/Kuszmaul.pdf  
-[38] TUF project — https://theupdateframework.io/  
-[39] in‑toto (USENIX ’19) — https://www.usenix.org/system/files/sec19-torres-arias.pdf  
-[40] Reproducible Builds — https://reproducible-builds.org/  
-[41] SPDX 3.0.1 — https://spdx.github.io/spdx-spec/v3.0.1/  
-[42] CycloneDX spec — https://github.com/CycloneDX/specification  
-[45] Dwork & Roth (book) — https://www.cis.upenn.edu/~aaroth/Papers/privacybook.pdf  
-[46] Census TopDown brief — https://www2.census.gov/library/publications/decennial/2020/census-briefs/c2020br-04.pdf  
-[47] TopDown algorithm (paper) — https://systems.cs.columbia.edu/private-systems-class/papers/Abowd2022Census.pdf  
-[49] Google Research — DP heatmaps — https://research.google/blog/differentially-private-heatmaps/  
-[50] PPMF Tech Docs (2024) — https://www2.census.gov/programs-surveys/decennial/2020/technical-documentation/complete-tech-docs/privacy-protected-microdata-file/2020census-privacy-protected-microdata-file.pdf  
-[51] W3C DID Core — https://www.w3.org/TR/did-core/  
-[52] CanDID (IEEE S&P ’21) — (program page) https://www.ieee-security.org/TC/SP2021/program.html  
-[53] Personhood Credentials — https://arxiv.org/abs/2408.07892  
-[54] DIDs/VCs survey — https://arxiv.org/abs/2402.02455  
-[55] MACI overview (ecosystem) — https://support.gitcoin.co/gitcoin-knowledge-base/gitcoin-grants-program/mechanisms/maci
-[56] Psychological License (Advances in Experimental Social Psychology, 2010) — https://discovery.ucl.ac.uk/1348587/1/download2.pdf  
-[56] Psychological License (Effron personal site copy) — https://www.danieleffron.com/_files/ugd/5a3785_23b2261b74be460882c709d2f836af84.pdf  
-[57] Genetic Risk for Psychopathy in 7-Year-Olds (J Child Psychol Psychiatry, 2005) — https://www.academia.edu/14267974/Evidence_for_substantial_genetic_risk_for_psychopathy_in_7_year_olds  
-[58] Morality and Empathy (Trends in Cognitive Sciences, 2014) — https://www.academia.edu/7444395/The_complex_relation_between_morality_and_empathy  
-[59] Corporate Psychopathy: Talking the Walk (Behavioral Sciences & the Law, 2010) — https://www.sakkyndig.com/psykologi/artvit/babiak2010.pdf  
-[60] Corporate Psychopaths: Organisational Destroyers (Palgrave Macmillan, 2011) — https://historicalunderbelly.wordpress.com/wp-content/uploads/2012/12/corporate-psychopaths.pdf  
-[61] LLMs & Democracy — https://arxiv.org/pdf/2410.08418  
-[62] NLP Summarizing Policy Comments — https://www.ippapublicpolicy.org/file/paper/666960f7df1a8.pdf  
-[63] Echo Chamber Topology (PMC open access) — https://pmc.ncbi.nlm.nih.gov/articles/PMC8379609/  
-[64] Cascade Echo Chamber Detection — https://arxiv.org/abs/2208.04620  
-[65] AI for Consensus (Science 2024) — https://www.science.org/doi/10.1126/science.adq2852  
-[66] Explainable NLP Summarization — https://www.mdpi.com/1999-5903/16/7/241  
-[67] Echo Chamber Systematic Review — https://arxiv.org/html/2407.06631v1  
-[68] Echo Chambers on Social Media (PNAS) — https://www.pnas.org/doi/10.1073/pnas.2023301118  
+[9]  Securing the Private Key in Your Blockchain Wallet: A Continuous Authentication Approach Based on Behavioral Biometric - https://www.researchgate.net/publication/345398701_Securing_the_Private_Key_in_Your_Blockchain_Wallet_A_Continuous_Authentication_Approach_Based_on_Behavioral_Biometric
+
+[10] Key Management Based on Ownership of Multiple Authenticators in Public Key Authentication - https://arxiv.org/abs/2204.05471
+
+[11] Arcula: A Secure Hierarchical Deterministic Wallet for Multi-asset Blockchains - https://arxiv.org/abs/1906.05919
+
+[12] Singularity Blockchain Key Management via non-custodial key management - https://arxiv.org/abs/2506.02282
+
+[13] Verifiable Anonymous Identities and Access Control in Permissioned Blockchains - https://arxiv.org/abs/1903.04584
+
+[14] (0day)Multiple wallets can leak the users Private key - https://medium.com/%40exvul/0day-multiable-wallets-can-leak-the-users-private-key-b2c3e89c3226
+
+### Trust Metrics
+
+[15] Attack Resistant Trust Metrics - https://docslib.org/doc/6017665/attack-resistant-trust-metrics-raph-levien-uc-berkeley
+
+[16] A comparison of two trust metrics - https://www.squarefree.com/trust/trust.pdf
+
+[17] A group trust metric for identifying people of trust in online social networks - https://www.sciencedirect.com/science/article/abs/pii/S0957417412008007
+
+[18] Trust Network Analysis with Subjective Logic - https://www.mn.uio.no/ifi/english/people/aca/josang/publications/jhp2006-acsc.pdf
+
+[19] A Flexible Framework for Probabilistic Models of Social Trust - https://berthuang.com/papers/huang-sbp13.pdf
+
+[20] Predicting Trust and Distrust in Social Networks - https://www.cs.umd.edu/~srin/PDF/2011/trust-distrust-conf.pdf
+
+[21] Absolute Trust: Algorithm for Aggregation of Trust in Peer-to- Peer Networks - https://arxiv.org/pdf/1601.01419
+
+[22] Personalizing Applications through Integration of Inferred Trust Values in Semantic Web-Based Social Networks - https://ceur-ws.org/Vol-171/paper2.pdf
+
+[23] A trust-enhanced recommender system application: Moleskiing - https://www.researchgate.net/publication/221001486_A_trust-enhanced_recommender_system_application_Moleskiing
+
+[24] Measuring Trust in Online Social Networks - https://www.researchgate.net/publication/389300766_Measuring_Trust_in_Online_Social_Networks
+
+[25] Trust Assessment in Online Social Networks - https://www.researchgate.net/publication/332686548_Trust_Assessment_in_Online_Social_Networks_full_version
+
+[26] Understanding Graph-based Trust Evaluation in Online Social Networks: Methodologies and Challenges - https://cis.temple.edu/~wu/research/publications/Publication_files/20160219-trustsurvey-acm.pdf
+
+[27] An analysis of social network-based Sybil defenses - https://dl.acm.org/doi/abs/10.1145/1851275.1851226
+
+[28] Sybil Defense Techniques in Online Social Networks: A Survey - https://www.researchgate.net/publication/312668942_Sybil_Defense_Techniques_in_Online_Social_Networks_A_Survey
+
+[29] Sybil Detection using Graph Neural Networks - https://arxiv.org/abs/2409.08631
+
+[30] Survey of Sybil Attacks in Social Networks - https://arxiv.org/pdf/1504.05522
+
+[31] SybilFuse: Combining Local Attributes with Global Structure to Perform Robust Sybil Detection - https://arxiv.org/abs/1803.06772
+
+[32] Improving Social Network-based Sybil Defenses by Rewiring and Augmenting Social Graphs - https://seal.cs.ucf.edu/doc/wisa13b.pdf
+
+[33] SoK: The Evolution of Sybil Defense via Social Networks - https://oaklandsok.github.io/papers/alvisi2013.pdf
+
+[34] SybilLimit: A Near-Optimal Social Network Defense against Sybil Attacks - https://www.comp.nus.edu.sg/~yuhf/yuh-sybillimit.pdf
+
+[35] SybilGuard: Defending Against Sybil Attacks via Social Networks - https://www.math.cmu.edu/~adf/research/SybilGuard.pdf
+
+### Zero Knowledge Proofs
+
+[36] Zero-Knowledge Proof Frameworks: A Survey - https://arxiv.org/html/2502.07063v1
+
+[37] Zero-knowledge against quantum attacks - https://arxiv.org/abs/quant-ph/0511020
+
+[38] Securing Healthcare 5.0: Zero-Knowledge Proof (ZKP) and Post Quantum Cryptography (PQC) Solutions for Medical Data Security - https://link.springer.com/chapter/10.1007/978-3-031-69336-6_15
+
+[39] Everything You Need to Know About Zero-Knowledge Proof (ZKP) Technology - https://hackernoon.com/everything-you-need-to-know-about-zero-knowledge-proof-zkp-technology
+
+### Liveness, Collusion, and Coercion
+
+[40] On the Impact of Witness-Based Collusion in Agent Societies - https://www.cs.toronto.edu/~abari/papers/WitnessCollusion.pdf
+
+[41] MobChain: Three-Way Collusion Resistance in Witness-Oriented Location Proof Systems Using Distributed Consensus - https://pmc.ncbi.nlm.nih.gov/articles/PMC8348899/
+
+[42] Keeping Authorities “Honest or Bust” with Decentralized Witness Cosigning - https://dedis.cs.yale.edu/dissent/papers/witness.pdf
+
+[43] WORAL: A Witness Oriented Secure Location Provenance Framework for Mobile Devices - https://www.researchgate.net/publication/277076982_WORAL_A_Witness_Oriented_Secure_Location_Provenance_Framework_for_Mobile_Devices
+
+[44] ISO/IEC 30107-3:2023 Information technology — Biometric presentation attack detection (Part 3: Testing and reporting) - https://www.iso.org/standard/79520.html
+
+[45] Face Analysis Technology Evaluation (FATE) PAD - https://pages.nist.gov/frvt/html/frvt_pad.html
+
+[46] A survey on face presentation attack detection mechanisms: hitherto and future perspectives - https://pmc.ncbi.nlm.nih.gov/articles/PMC10025066/
+
+[47] Presentation Attack Detection: A Systematic Literature Review - https://dl.acm.org/doi/full/10.1145/3687264
+
+[48] A survey of deep learning for face presentation attack detection - https://www.sciencedirect.com/science/article/pii/S0925231225018089
+
+[49] LivDet 2025 Competition Overview - https://sites.unica.it/livdet/
+
+[50] Review of the Fingerprint Liveness Detection (LivDet) competition series: from 2009 to 2021 - https://arxiv.org/abs/2202.07259
+
+[51] Liveness Detection Competition -- Noncontact-based Fingerprint Algorithms and Systems (LivDet-2023 Noncontact Fingerprint) - https://arxiv.org/abs/2310.00659
+
+[52] ASVspoof: the Automatic Speaker Verification Spoofing and Countermeasures Challenge - https://www.asvspoof.org/papers/IEEE_J_STSP_ASVspoof.pdf
+
+[53] ASVspoof 2019: A large-scale public database of synthesized, converted and replayed speech - https://arxiv.org/abs/1911.01601
+
+[54] LivDet iris 2017 — Iris liveness detection competition 2017 - https://par.nsf.gov/servlets/purl/10049326
+
+[55] Iris Liveness Detection Competition (LivDet-Iris) – The 2023 Edition - https://arxiv.org/html/2310.04541
+
+[56] Iris presentation attack detection: Where are we now? - https://www.sciencedirect.com/science/article/abs/pii/S0167865520303226
+
+[57] Face Analysis Technology Evaluation (FATE) - https://nvlpubs.nist.gov/nistpubs/ir/2023/NIST.IR.8491.pdf
+
+[58] TRIP: Trust-Limited Coercion-Resistant In-Person Voter Registration - https://arxiv.org/abs/2202.06692
+
+[59] A Formal Approach to Coercion Resistance and Its Application to E-Voting - https://www.mdpi.com/2227-7390/10/5/781
+
+[60] Coercion Resistance in Authentication Responsibility Shifting - https://citeseerx.ist.psu.edu/document?doi=adeda62b8f57054c598bb2daf6937fd517dd328d&repid=rep1&type=pdf
+
+## Discussion, Voting, and Polling Layer
+
+### Echo Chamber Detection
+
+[61] A Survey on Echo Chambers on Social Media: Description, Detection and Mitigation - https://arxiv.org/abs/2112.05084
+
+[62] Comparing Echo Chamber Detection Metrics: A Cross-modeling and Cross-platform Analysis of Twitter and Reddit - https://dl.acm.org/doi/10.1145/3707701
+
+[63] The echo chamber effect on social media - https://www.pnas.org/doi/10.1073/pnas.2023301118
+
+[64] Echo chamber detection and analysis: A topology- and content-based approach in the COVID-19 scenario - https://link.springer.com/article/10.1007/s13278-021-00779-3
+
+[65] Political Polarization on Twitter - https://ojs.aaai.org/index.php/icwsm/article/view/14126
+
+[66] Quantifying Controversy in Social Media - https://arxiv.org/abs/1507.05224
+
+[67] Reducing Controversy by Connecting Opposing Views - https://arxiv.org/abs/1611.00172
+
+[68] The spreading of misinformation online - https://www.pnas.org/doi/10.1073/pnas.1517441113
+
+[69] Towards echo chamber assessment by employing aspect-based sentiment analysis and GDM consensus metrics - https://www.sciencedirect.com/science/article/pii/S2468696424000016
+
+[70] Cascade-based Echo Chamber Detection - https://arxiv.org/abs/2208.04620
+
+[71] Echo chamber detection and analysis - https://pmc.ncbi.nlm.nih.gov/articles/PMC8379609/
+
+### Methods of decreasing polarization
+
+[72] AI can help humans find common ground in democratic deliberation - https://www.science.org/doi/10.1126/science.adq2852
+
+[73] Summarizing Public Comments on Policy Proposals Using Large Language Models - https://www.ippapublicpolicy.org/file/paper/666960f7df1a8.pdf
+
+[74] Using LLMs to Enhance Democracy - https://arxiv.org/pdf/2410.08418
+
+[75] Explainable Artificial Intelligence Methods to Enhance Transparency and Trust in Digital Deliberation Settings - https://www.mdpi.com/1999-5903/16/7/241
+
+[76] Perspective-taking to Reduce Affective Polarization on Social Media - https://arxiv.org/abs/2110.05596
+
+[77] Can you ‘undo’ political polarization? Left and right might be closer than we think, study finds - https://www.theguardian.com/us-news/2024/nov/03/reducing-political-polarization-democrats-republicans
+
+[78] America in One Room - https://en.wikipedia.org/wiki/America_in_One_Room
+
+[79] Designing Recommender Systems to Depolarize - https://arxiv.org/abs/2107.04953
+
+[80] Exposure to Cross-Cutting Information on Social Media and Perceived Political Polarization - https://www.ajpor.org/article/126612-exposure-to-cross-cutting-information-on-social-media-and-perceived-political-polarization
+
+[81] Exposure to opposing views on social media can increase political polarization - https://www.pnas.org/doi/10.1073/pnas.1804840115
+
+[82] What Meta’s New Studies Do—and Don’t—Reveal About Social Media and Polarization - https://www.wired.com/story/meta-social-media-polarization/
+
+[83] Inequality, Identity, and Partisanship: How redistribution can stem the tide of mass polarization - https://arxiv.org/abs/2103.14619
+
+### Zero Knowledge Proofs for voting & scalability
+
+[84] Explaining Halo-2 -  https://electriccoin.co/blog/explaining-halo-2
+
+[85] A Transparent Scalable E-Voting Protocol Based on Open Vote Network Protocol and Zk-STARKs - https://www.researchgate.net/publication/374854997_A_Transparent_Scalable_E-Voting_Protocol_Based_on_Open_Vote_Network_Protocol_and_Zk-STARKs
+
+[86] Open Vote Network - https://en.wikipedia.org/wiki/Open_vote_network
+
+[87] Scalable Open-Vote Network on Ethereum - https://fc20.ifca.ai/wtsc/WTSC2020/WTSC20_paper_10.pdf
+
+[88] A Technology Review of Zero Knowledge Proof Techniques - https://www.scitepress.org/Papers/2025/132696/132696.pdf
+
+### Cross-Linking discussions while mitigating bias
+
+[89] Bias and social media logics in a cross-platform hyperlink network - https://firstmonday.org/ojs/index.php/fm/article/download/12568/10655
+
+[90] Algorithmic bias detection and mitigation: Best practices and policies to reduce consumer harms - https://www.brookings.edu/articles/algorithmic-bias-detection-and-mitigation-best-practices-and-policies-to-reduce-consumer-harms/
+
+[91] Towards a Standard for Identifying and Managing Bias in Artificial Intelligence - https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf
+
+[92] AI Fairness 360: An Extensible Toolkit for Detecting, Understanding, and Mitigating Unwanted Algorithmic Bias - https://arxiv.org/abs/1810.01943
+
+[93] Mitigating Bias in Algorithmic Systems -- A Fish-Eye View - https://arxiv.org/abs/2103.16953
+
+[94] D-BIAS: A Causality-Based Human-in-the-Loop System for Tackling Algorithmic Bias - https://arxiv.org/abs/2208.05126
+
+### Echo Chamber Mapping and Bridge Detection
+
+[95] Quantifying the Echo Chamber Effect: An Embedding Distance-based Approach - https://arxiv.org/abs/2307.04668
+
+[96] Echo Chambers and Segregation in Social Networks: Markov Bridge Models and Estimation - https://www.researchgate.net/publication/353200992_Echo_Chambers_and_Segregation_in_Social_Networks_Markov_Bridge_Models_and_Estimation
+
+### LLM/NLP mediation and risk mitigation
+
+[97] Benchmarking Adversarial Robustness to Bias Elicitation in Large Language Models: Scalable Automated Assessment with LLM-as-a-Judge - https://www.researchgate.net/publication/390671276_Benchmarking_Adversarial_Robustness_to_Bias_Elicitation_in_Large_Language_Models_Scalable_Automated_Assessment_with_LLM-as-a-Judge
+
+[98] Bias and Fairness in Large Language Models: A Survey - https://direct.mit.edu/coli/article/50/3/1097/121961/Bias-and-Fairness-in-Large-Language-Models-A
+
+[99] FLEX: A Benchmark for Evaluating Robustness of Fairness in Large Language Models - https://arxiv.org/abs/2503.19540
+
+[100] Adversarial GLUE: A Multi-Task Benchmark for Robustness Evaluation of Language Models - https://arxiv.org/abs/2111.02840
+
+[101] OMGEval: An Open Multilingual Generative Evaluation Benchmark for Large Language Models - https://arxiv.org/abs/2402.13524
+
+## Organizational Governance Layer
+
+### Hierarchical autonomy
+
+[102] Beyond Markets and States: Polycentric Governance of Complex Economic Systems - https://mx.nthu.edu.tw/~cshwang/all-my-teaching/Reading-Writing/RW10-Politics/Ostrom-E%253DPolycentric%20Governance%20of%20Complex%20Economic%20Systems.pdf
+
+[103] SUBSIDIARITY AS A PRINCIPLE OF GOVERNANCE: BEYOND DEVOLUTION - https://mckinneylaw.iu.edu/practice/law-reviews/ilr/pdf/vol35p103.pdf
+
+### Membership API 
+
+[104] Verifiable Credentials Data Model v2.0 - https://www.w3.org/TR/vc-data-model-2.0
+
+[105] OpenID for Verifiable Credential Issuance 1.0 - draft - https://openid.net/specs/openid-4-verifiable-credential-issuance-1_0.html
+
+[106] OpenID for Verifiable Presentations 1.0 - https://openid.net/specs/openid-4-verifiable-presentations-1_0.html
+
+[107] SD-JWT-based Verifiable Credentials - https://datatracker.ietf.org/doc/draft-ietf-oauth-sd-jwt-vc
+
+[108] OpenID4VC High Assurance Interoperability Profile with SD-JWT VC - draft - https://openid.net/specs/openid4vc-high-assurance-interoperability-profile-sd-jwt-vc-1_0-00.html
+
+[109] ISO/IEC 18013-5:2021 Personal identification — ISO-compliant driving licence - Part 5: Mobile driving licence (mDL) application - https://www.iso.org/standard/69084.html
+
+[110] The BBS Signature Scheme - https://datatracker.ietf.org/doc/draft-irtf-cfrg-bbs-signatures/
+
+[111] Data Integrity BBS Cryptosuites v1.0 - https://www.w3.org/TR/vc-di-bbs/
+
+[112] Coconut: Threshold Issuance Selective Disclosure Credentials with Applications to Distributed Ledgers - https://arxiv.org/abs/1802.07344
+
+### Federation protocols
+
+[113] ERC-4824 Decentralized Autonomous Organizations - https://ethereum-magicians.org/t/erc-4824-decentralized-autonomous-organizations/8362
+
+[114] What is DAOstar? - https://daostar-public-docs.onrender.com/
+
+[115] Attribute Metadata - A Proposed Schema for Evaluating Federated Attributes - https://nvlpubs.nist.gov/nistpubs/ir/2018/nist.ir.8112.pdf
+
+[116] Matrix Specification - https://spec.matrix.org/latest/
+
+[117] Extensible Messaging and Presence Protocol (XMPP): Core - https://xmpp.org/rfcs/rfc6120.html
+
+### Governance templates
+
+[118] Quadratic Voting: How Mechanism Design Can Radicalize Democracy - https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2003531
+
+[119] Liquid Democracy with Ranked Delegations - https://ojs.aaai.org/index.php/AAAI/article/view/20417
+
+[120] Innovative Citizen Participation and New Democratic Institutions - https://www.oecd.org/content/dam/oecd/en/publications/reports/2020/06/innovative-citizen-participation-and-new-democratic-institutions_11aa2baf/339306da-en.pdf
+
+[121] ActivityPub - https://www.w3.org/TR/activitypub/
+
+### Infiltration resistance models
+
+[122] SoK: Attacks on DAOs - https://drops.dagstuhl.de/storage/00lipics/lipics-vol316-aft2024/LIPIcs.AFT.2024.28/LIPIcs.AFT.2024.28.pdf
+
+[123] Demystifying the DAO Governance Process - https://arxiv.org/html/2403.11758v1
+
+[124] Hack Track: Analysis of Beanstalk Flash Loan Attack - https://www.merklescience.com/blog/hack-track-analysis-of-beanstalk-flash-loan-attack
+
+[125] Balancing Security and Liquidity: A Time-Weighted Snapshot Framework for DAO Governance Voting - https://arxiv.org/pdf/2505.00888
+
+[126] An Analysis of p + ε Attacks on Various Models of Schelling Game Based Systems - https://assets.pubpub.org/33am50c6/51581340370715.pdf
+
+[127] (not applicable, but likely insightful) Minimal Anti Collusion Infrastructure (MACI) A protocol for running **private** on chain polls - https://reports.pse.dev/reports/Applied_ZKP_Primitives/MACI/MACI.pdf
+
+**note: domain experts needed for better organization & expansion the following reference sections**
+## Security and Privacy Layer
+
+[128] A Formal Security Analysis of the Signal Messaging Protocol - https://theswissbay.ch/pdf/Whitepaper/Crypto/A%20Formal%20Security%20Analysis%20of%20the%20Signal%20Messaging%20Protocol%20-%20Katriel%20Cohn-Gordon%2C%20Cas%20Cremers%2C%20Benjamin%20Dowling%2C%20Luke%20Garratt%2C%20Douglas%20Stebila.pdf
+
+[129] The Messaging Layer Security (MLS) Protocol (RFC 9420) - https://datatracker.ietf.org/doc/rfc9420
+
+[130] TreeSync: Authenticated Group Management for Messaging Layer Security - https://www.usenix.org/conference/usenixsecurity23/presentation/wallez
+
+[131] Hybrid Public Key Encryption  (RFC 9180) - https://datatracker.ietf.org/doc/rfc9180
+
+[132] Crypto-Transition and Agility - https://csrc.nist.gov/csrc/media/Presentations/2024/cryptographic-agility-and-transition-rd-and-plans/Chen-Day2-Crypto-Agility_and%2BTransition_R_and_D_Plans.pdf
+
+[133] Modeling and Analyzing Security Protocols with Tamarin: A Comprehensive Guide - https://tamarin-prover.com/book/downloads/Tamarin%20book-Draft%20v0.9.5.pdf
+
+[134] Scantegrity II Municipal Election at Takoma Park: The First E2E Binding Governmental Election with Ballot Privacy - https://vote.caltech.edu/documents/207/WP143.pdf
+
+[135] Scantegrity II: End-to-End Verifiability for Optical Scan Election Systems using Invisible Ink Confirmation Codes - https://www.usenix.org/legacy/event/evt08/tech/full_papers/chaum/chaum_html/
+
+[136] Usability of Voter Verifiable, End-to-end Voting Systems: Baseline Data for Helios, Prêt à Voter, and Scantegrity II - https://www.usenix.org/system/files/conference/evtwote14/jets_0203-acemyan.pdf
+
+[137] vVote: a Verifiable Voting System - https://arxiv.org/abs/1404.6822
+
+[138] Secure and Verifiable Electronic Voting in Practice: the use of vVote in the Victorian State Election - https://www.researchgate.net/publication/275588084_Secure_and_Verifiable_Electronic_Voting_in_Practice_the_use_of_vVote_in_the_Victorian_State_Election
+
+[139] Mind the Gap: Ceremonies for Applied Secret Sharing - https://petsymposium.org/popets/2020/popets-2020-0033.pdf
+
+[140] Scalable Zero Knowledge with no Trusted Setup - https://www.iacr.org/archive/crypto2019/116940201/116940201.pdf
+
+[141] ZK-STARK Theory & Implementation - https://rdi.berkeley.edu/berkeley-desys/assets/material/lec5_eli_ben_sasson_zk_stark.pdf
+
+[142] Post-quantum zero knowledge in constant rounds - https://dl.acm.org/doi/10.1145/3357713.3384324
+
+[143] Benchmarking ZK-Friendly Hash Functions and SNARK Proving Systems for EVM-compatible Blockchains - https://arxiv.org/pdf/2409.01976
+
+[144] Zero-Knowledge Proof Frameworks: A Systematic Survey - https://arxiv.org/pdf/2502.07063
+
+[145] CALTECH/MIT VOTING TECHNOLOGY PROJECT - https://vote.caltech.edu/documents/207/WP143.pdf
+
+[146] Formal Analysis of Session-Handling in Secure Messaging: Lifting Security from Sessions to Conversations - https://www.usenix.org/conference/usenixsecurity23/presentation/cremers-session-handling
+
+[147] Guidelines for Cryptographic Algorithm Agility and Selecting Mandatory-to-Implement Algorithms - https://www.rfc-editor.org/rfc/rfc7696
+
+[148] How to share a secret - https://dl.acm.org/doi/10.1145/359168.359176
+
+[149] # The Flexible Round-Optimized Schnorr Threshold (FROST) Protocol for Two-Round Schnorr Signatures (RFC 9591) - https://datatracker.ietf.org/doc/rfc9591/
+
+[150] Security and Composition of Multiparty Cryptographic Protocols - https://link.springer.com/article/10.1007/s001459910006
+
+[151] Multi-Stage Group Key Distribution and PAKEs: Securing Zoom Groups against Malicious Servers without New Security Elements - https://core.ac.uk/download/588312439.pdf
+
+[152] Security and usability in password authentication - https://www.academia.edu/88060762/Security_and_usability_in_password_authentication
+
+[153] Symbolically Analyzing Security Protocols using Tamarin - https://people.inf.ethz.ch/basin/pubs/siglog-tamarin.pdf
+
+[154] The Crypto-Agility Properties - https://www.iiis.org/cds2018/cd2018summer/papers/ha536vg.pdf
+
+[155] Hybrid Public Key Encryption (HPKE) - https://pycryptodome.readthedocs.io/en/latest/src/protocol/hpke.html
+
+[156] Biometrics for Internet-of-Things Security: A Review - https://pmc.ncbi.nlm.nih.gov/articles/PMC8472874/
+
+[157] Securing Smartphones: A Micro-TCB Approach - https://arxiv.org/abs/1401.7444
+
+[158] Guidelines for Managing the Security of Mobile Devices in the Enterprise - https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-124r2.pdf
+
+[159] Secure and Reliable Biometric Access Control for Resource-Constrained Systems and IoT - https://arxiv.org/abs/1803.09710
+
+[160] Privacy-Preserving Biometric Matching Using Homomorphic Encryption - https://arxiv.org/abs/2111.12372
+
+[178] PQC-HA: A Framework for Prototyping and In-Hardware Evaluation of Post-Quantum Cryptography Hardware Accelerators - https://arxiv.org/abs/2308.06621
+
+[179] Evaluating the security of CRYSTALS-Dilithium in the quantum random oracle model - https://arxiv.org/abs/2312.16619
+
+[180] Post-quantum cryptography Algorithm's standardization and performance analysis - https://www.sciencedirect.com/science/article/pii/S2590005622000777
+
+[181] Performance and Storage Analysis of CRYSTALS Kyber as a Post Quantum Replacement for RSA and ECC - https://arxiv.org/abs/2508.01694
+
+[182] # NIST Post-Quantum Cryptography Standardization - https://en.wikipedia.org/wiki/NIST_Post-Quantum_Cryptography_Standardization
+
+## Data and Analytics Layer
+
+[161] Differential Privacy Overview and Fundamental Techniques - https://arxiv.org/html/2411.04710v1
+
+[162] Visualizing Privacy-Utility Trade-Offs in Differentially Private Data Releases - https://petsymposium.org/popets/2022/popets-2022-0058.pdf
+
+[163] Noise Variance Optimization in Differential Privacy: A Game-Theoretic Approach Through Per-Instance Differential Privacy - https://arxiv.org/abs/2404.15686
+
+[164] Differential Private Discrete Noise Adding Mechanism: Conditions, Properties and Optimization - https://arxiv.org/abs/2203.10323
+
+[165] SMOTE-DP: Improving Privacy-Utility Tradeoff with Synthetic Data - https://arxiv.org/html/2506.01907v1
+
+[166] More Than Meets the Eye: Understanding Political Microtargeting Processing With Gaze-Cued Retrospective Think-Aloud Methodology - https://www.researchgate.net/publication/385421944_More_Than_Meets_the_Eye_Understanding_Political_Microtargeting_Processing_with_Gaze-Cued_Retrospective_Think-Aloud_Methodology
+
+[167] Privacy preserving data visualizations - https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-020-00257-4
+
+[168] Efficient weighted multi-source trust aggregation scheme for edge computing offloading - https://link.springer.com/article/10.1007/s13278-023-01196-4
+
+[169] A Combined Approach of Heat Map Confusion and Local Differential Privacy for the Anonymization of Mobility Data - https://www.mdpi.com/2076-3417/15/14/8065
+
+[170] Mosaic Effect - https://en.wikipedia.org/wiki/Mosaic_effect
+
+[171] Reputation Aggregation in Peer-to-Peer Network Using Differential Gossip Algorithm - https://arxiv.org/abs/1210.4301
+
+[172] Decentralized Trust Management: Risk Analysis and Trust Aggregation - 
+
+[173] Towards Auditing Large Language Models: Improving Text-based Stereotype Detection - https://arxiv.org/abs/2311.14126
+
+[174] Whose morality do they speak? Unraveling cultural bias in multilingual language models - https://www.sciencedirect.com/science/article/pii/S2949719125000482
+
+[175] Bias in Large Language Models: Origin, Evaluation, and Mitigation - https://arxiv.org/html/2411.10915v1
+
+[176] Uncovering Measurement Biases in LLM Embedding Spaces: The Anna Karenina Principle and Its Implications for Automated Feedback - https://link.springer.com/article/10.1007/s40593-025-00485-7
+
+[177] LLMAuditor: A Framework for Auditing Large Language Models Using Human-in-the-Loop - https://arxiv.org/abs/2402.09346
